@@ -558,8 +558,12 @@ article{
 .comments-block tr td{
 	padding-top:7px;
 	padding-bottom: 12px;
-	
 }
+
+.comments-block a{
+	color:#7f939d;
+}
+
 .comments-block tr:first-of-type td:first-of-type{
 	padding-top:7px;
 	border-bottom:3px solid #0000ee;
@@ -569,6 +573,10 @@ article{
     font-size: 14px;
     letter-spacing: 0.2px;
 	color:#3a464e;
+}
+
+.comments-block tr:first-of-type td:first-of-type a{
+	color:black;
 }
 
 .comments-block tr:first-of-type td:nth-child(2){
@@ -588,10 +596,12 @@ article{
 	text-align:right;
 	cursor:pointer;
 	width: 15%;
+	position:relative;
 }
 
 .mess-img{
 	margin: 0px 9px -4px 0px;
+	
 }
 .arrow-d1{
 	margin: 0px 0px 1px 4px;
@@ -614,6 +624,15 @@ article{
 	padding-left: 20px;
 	font-weight:bold;
 	color:#7f939d;
+}
+
+.comments-block .counter{
+	color:#fff;
+	display:block;
+	position:absolute;
+	top: 8px;
+    left: 54px;
+    font-size: 12px;
 }
 
 .retweet-img{
@@ -641,6 +660,7 @@ article{
     padding: 10px 0px 0px 15px;
     border-radius: 5px;
 	float: right;
+	resize:none;
 }
 
 .discussion textarea:focus{
@@ -676,11 +696,12 @@ footer img{
 	margin: 0px 10px -4px 0px;
 }
 
-footer span{
+footer a{
 	margin-right: 30px;
+	color:#8d9092;
 }
 
-footer span:last-of-type{
+footer a:last-of-type{
 	font-size:15px;
 	font-weight:bold;
 	float: right;
